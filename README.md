@@ -1,5 +1,5 @@
 # reactjs-utils
-Useful util JS files from past internship
+Useful utility JS files
 
 ## Helper functions to diff and wiring props for React components + debounce, throttle, memoize in VanillaJS
 [Utils.js](https://github.com/CharryWu/reactjs-utils/blob/master/Utils.js)
