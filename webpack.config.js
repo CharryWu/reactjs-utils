@@ -33,7 +33,7 @@ module.exports = (env = {}) => {
         })(),
         output: (() => {
             let output = {
-                path: path.resolve('../lecture-viewer-redux-deploy/bundles/'),
+                path: path.resolve('../deploy/bundles/'),
                 filename: '[name]-[hash].js',
                 chunkFilename: '[name]-[chunkhash].bundle.js',
             }
@@ -41,7 +41,7 @@ module.exports = (env = {}) => {
             if (serverMode) {
                 output = {
                     ...output,
-                    publicPath: 'https://evt-lect-dev.s3.amazonaws.com/static/bundles/'
+                    publicPath: 'https://lorem-ipsum.s3.amazonaws.com/static/bundles/'
                 }
             } else if (productionMode) {
                 output = {
