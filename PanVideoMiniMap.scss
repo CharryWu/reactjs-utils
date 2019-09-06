@@ -1,0 +1,49 @@
+$pan-video-height: 150px;
+
+.pan-video-minimap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $pan-video-height;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.pan-video-minimap-inner{
+    position: relative;
+
+    canvas{
+        border-bottom: 4px black solid;
+        box-sizing: border-box;
+    }
+}
+
+.vjs-fullscreen .vjs-tech{
+    top: $pan-video-height;
+    width: auto;
+    height: calc(100% - #{$pan-video-height});
+}
+
+.vjs-fullscreen{
+    overflow-x: scroll;
+}
+
+.vjs-fullscreen .vjs-control-bar{
+    position: fixed;
+}
+
+.pan-scroll-thumb{
+    width:100px;
+    height:100%;
+    background: rgba(255,255,255,0.2);
+    position: absolute;
+    left:0;
+    top:0;
+    z-index: 10;
+}
+
+.pan-scroll-thumb-enhanced{
+    background: rgba(0,0,0,0.2);
+}
