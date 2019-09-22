@@ -29,8 +29,8 @@ See files under [LocalStorageAPI/](https://github.com/CharryWu/reactjs-utils/tre
 ## Video.js plugins
 ### Seekable playback time
 [SeekTextInput.plugin.js](https://github.com/CharryWu/reactjs-utils/blob/master/SeekTextInput.plugin.js)  
-![seekable playback](https://lh4.googleusercontent.com/9NmaXhupzD-9MDzL7OnLKeKimf4-ejhPzyfDjqgfJVWzPGiaIRJSxk58t9-pUWX6fQtfSvW3FIgDxzima9iE=w1440-h766)
+![seekable playback](https://github.com/CharryWu/reactjs-utils/blob/master/timeseekinput.png)
 ### Time tooltip (on mouse hover)
 [ShowTooltipByTime.plugin.js](https://github.com/CharryWu/reactjs-utils/blob/master/ShowTooltipByTime.plugin.js)  
-![time tooltip](https://lh4.googleusercontent.com/c5VEy09S51hWYGr_xCBsDp2109TnXFJGuqmnWN_DSCvYtctRmY1y5AvHFNEkONPmE0V7A5mtf8WjQI_0GG8z=w1440-h766)
+![time tooltip](https://github.com/CharryWu/reactjs-utils/blob/master/hovertooltip.png)
 
